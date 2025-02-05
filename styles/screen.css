@@ -1,12 +1,12 @@
 :root {
-    --main-background: #2d3142;
-    --main-text: #eae8ff;
+    --main-background-secondary-text: #2d3142;
+    --main-text-secondary-background: #eae8ff;
 }
 
 body {
     font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
+    color: var(--main-text-secondary-background);
+    background: var(--main-background-secondary-text);
     padding: 0 40px;
     text-align: center;
 }
