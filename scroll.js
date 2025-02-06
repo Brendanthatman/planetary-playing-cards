@@ -1,4 +1,1 @@
-ScrollReveal().reveal('#Sun_card', { 
-    origin: 'right'
-
- });
+ScrollReveal().reveal('.cards', { delay: 600 });

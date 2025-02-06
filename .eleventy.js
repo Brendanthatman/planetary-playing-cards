@@ -3,6 +3,7 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("styles");
+  eleventyConfig.addPassthroughCopy("/scroll.js")
 
   eleventyConfig.addShortcode("planetCard", function(planet, au){
     return `
