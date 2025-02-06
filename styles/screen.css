@@ -31,15 +31,88 @@ h1 {
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
+    padding: 20px;
+}
+
+.card_title {
+    font-size: 24px;
+}
+
+.planet_drawing {
+    margin-bottom: 20px;
 }
 
 #Sun_card {
     grid-row: 1 / 3;
 }
 
+.card_title_sun {
+    font-size: 48px;
+}
+
+.au_card_sun {
+    font-size: 20px;
+}
+
 #Sun_drawing {
-    height: 25px;
-    width: 25px;
+    height: 250px;
+    width: 250px;
+    background: #ff0000;
+    border-radius: 50%;
+}
+
+#Mercury_drawing {
+    height: 125px;
+    width: 125px;
+    background: #ff0000;
+    border-radius: 50%;
+}
+
+#Venus_drawing {
+    height: 125px;
+    width: 125px;
+    background: #ff0000;
+    border-radius: 50%;
+}
+
+#Earth_drawing {
+    height: 125px;
+    width: 125px;
+    background: #ff0000;
+    border-radius: 50%;
+}
+
+#Mars_drawing {
+    height: 125px;
+    width: 125px;
+    background: #ff0000;
+    border-radius: 50%;
+}
+
+#Jupiter_drawing {
+    height: 125px;
+    width: 125px;
+    background: #ff0000;
+    border-radius: 50%;
+}
+
+#Saturn_drawing {
+    height: 125px;
+    width: 125px;
+    background: #ff0000;
+    border-radius: 50%;
+}
+
+#Uranus_drawing {
+    height: 125px;
+    width: 125px;
+    background: #ff0000;
+    border-radius: 50%;
+}
+
+#Neptune_drawing {
+    height: 125px;
+    width: 125px;
     background: #ff0000;
     border-radius: 50%;
 }
