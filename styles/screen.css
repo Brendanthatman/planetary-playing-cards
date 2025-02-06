@@ -1,6 +1,8 @@
 :root {
-    --main-background-secondary-text: #2d3142;
-    --main-text-secondary-background: #eae8ff;
+    --main-background-secondary-text: #0C1B33;
+    --main-text-secondary-background: #DDDDDD;
+    --border-hover: #FE5E41;
+    --planet-border-radius: 50%;
 }
 
 body {
@@ -24,14 +26,18 @@ h1 {
 }
 
 .cards {
-    background: #EAE8FF;
-    color: #2D3142;
+    background: var(--main-text-secondary-background);
+    color: var(--main-background-secondary-text);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
     padding: 20px;
+}
+
+.cards:hover {
+    border: 5px solid var(--border-hover);
 }
 
 .card_title {
@@ -58,61 +64,70 @@ h1 {
     height: 250px;
     width: 250px;
     background: #ff0000;
-    border-radius: 50%;
+    border-radius: var(--planet-border-radius);
+    border: 3px solid var(--main-background-secondary-text);
 }
 
 #Mercury_drawing {
     height: 125px;
     width: 125px;
     background: #ff0000;
-    border-radius: 50%;
+    border-radius: var(--planet-border-radius);
+    border: 3px solid var(--main-background-secondary-text);
 }
 
 #Venus_drawing {
     height: 125px;
     width: 125px;
     background: #ff0000;
-    border-radius: 50%;
+    border-radius: var(--planet-border-radius);
+    border: 3px solid var(--main-background-secondary-text);
 }
 
 #Earth_drawing {
     height: 125px;
     width: 125px;
     background: #ff0000;
-    border-radius: 50%;
+    border-radius: var(--planet-border-radius);
+    border: 3px solid var(--main-background-secondary-text);
 }
 
 #Mars_drawing {
     height: 125px;
     width: 125px;
     background: #ff0000;
-    border-radius: 50%;
+    border-radius: var(--planet-border-radius);
+    border: 3px solid var(--main-background-secondary-text);
 }
 
 #Jupiter_drawing {
     height: 125px;
     width: 125px;
     background: #ff0000;
-    border-radius: 50%;
+    border-radius: var(--planet-border-radius);
+    border: 3px solid var(--main-background-secondary-text);
 }
 
 #Saturn_drawing {
     height: 125px;
     width: 125px;
     background: #ff0000;
-    border-radius: 50%;
+    border-radius: var(--planet-border-radius);
+    border: 3px solid var(--main-background-secondary-text);
 }
 
 #Uranus_drawing {
     height: 125px;
     width: 125px;
     background: #ff0000;
-    border-radius: 50%;
+    border-radius: var(--planet-border-radius);
+    border: 3px solid var(--main-background-secondary-text);
 }
 
 #Neptune_drawing {
     height: 125px;
     width: 125px;
     background: #ff0000;
-    border-radius: 50%;
+    border-radius: var(--planet-border-radius);
+    border: 3px solid var(--main-background-secondary-text);
 }
