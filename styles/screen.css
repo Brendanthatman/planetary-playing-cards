@@ -42,6 +42,10 @@ h1 {
     border: 5px solid var(--border-hover);
 }
 
+#Jupiter_card:hover {
+    padding: 15px;
+}
+
 .card_title {
     font-size: 24px;
 }
@@ -107,9 +111,10 @@ h1 {
 }
 
 #Jupiter_drawing {
-    height: 125px;
-    width: 125px;
-    background: #ff0000;
+    height: 175px;
+    width: 175px;
+    background: rgb(226,225,220);
+    background: linear-gradient(0deg, rgba(226,225,220,1) 0%, rgba(193,124,23,1) 50%, rgba(126,106,35,1) 100%); 
     border-radius: var(--planet-border-radius);
     border: var(--planet-border);
 }
