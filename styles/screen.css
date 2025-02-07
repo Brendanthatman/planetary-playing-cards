@@ -17,7 +17,7 @@ body {
 
 h1 {
     text-align: left;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 .cards_container {
@@ -51,7 +51,7 @@ h1 {
 }
 
 .planet_drawing {
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 #Sun_card {
@@ -76,8 +76,8 @@ h1 {
 }
 
 #Mercury_drawing {
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     background: rgb(129,129,11);
     background: radial-gradient(circle, rgba(129,129,11,1) 0%, rgba(121,51,20,1) 35%, rgba(46,38,6,1) 100%);
     border-radius: var(--planet-border-radius);
@@ -85,16 +85,16 @@ h1 {
 }
 
 #Venus_drawing {
-    height: 125px;
-    width: 125px;
+    height: 100px;
+    width: 100px;
     background: linear-gradient(0deg, rgba(174,143,86,1) 0%, rgba(158,156,115,1) 50%, rgba(233,227,210,1) 100%);
     border-radius: var(--planet-border-radius);
     border: var(--planet-border);
 }
 
 #Earth_drawing {
-    height: 125px;
-    width: 125px;
+    height: 100px;
+    width: 100px;
     background: rgb(46,150,37);
     background: linear-gradient(0deg, rgba(46,150,37,1) 20%, rgba(20,62,203,1) 100%); 
     border-radius: var(--planet-border-radius);
@@ -102,8 +102,8 @@ h1 {
 }
 
 #Mars_drawing {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     background: rgb(131,32,15);
     background: linear-gradient(0deg, rgba(131,32,15,1) 20%, rgba(147,160,82,1) 100%);  
     border-radius: var(--planet-border-radius);
@@ -111,8 +111,8 @@ h1 {
 }
 
 #Jupiter_drawing {
-    height: 175px;
-    width: 175px;
+    height: 150px;
+    width: 150px;
     background: rgb(226,225,220);
     background: linear-gradient(0deg, rgba(226,225,220,1) 0%, rgba(193,124,23,1) 50%, rgba(126,106,35,1) 100%); 
     border-radius: var(--planet-border-radius);
@@ -120,25 +120,28 @@ h1 {
 }
 
 #Saturn_drawing {
-    height: 125px;
-    width: 125px;
-    background: #ff0000;
+    height: 140px;
+    width: 140px;
+    background: rgb(196,192,127);
+    background: linear-gradient(0deg, rgba(196,192,127,1) 20%, rgba(69,71,58,1) 100%); 
     border-radius: var(--planet-border-radius);
     border: var(--planet-border);
 }
 
 #Uranus_drawing {
-    height: 125px;
-    width: 125px;
-    background: #ff0000;
+    height: 100px;
+    width: 100px;
+    background: rgb(122,213,225);
+    background: linear-gradient(35deg, rgba(122,213,225,1) 20%, rgba(5,41,49,1) 100%); 
     border-radius: var(--planet-border-radius);
     border: var(--planet-border);
 }
 
 #Neptune_drawing {
-    height: 125px;
-    width: 125px;
-    background: #ff0000;
+    height: 100px;
+    width: 100px;
+    background: rgb(102,151,233);
+    background: linear-gradient(120deg, rgba(102,151,233,1) 20%, rgba(17,3,67,1) 100%); 
     border-radius: var(--planet-border-radius);
     border: var(--planet-border);
 }

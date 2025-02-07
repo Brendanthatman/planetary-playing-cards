@@ -9,8 +9,10 @@ module.exports = function(eleventyConfig) {
     return `
       <div class="cards" id="${planet}_card">  
         <div class="planet_drawing" id="${planet}_drawing"></div>
-        <h2 class="card_title">${planet}</h2>
-        <p class="au_card">AU ${au}</p>
+        <div id="${planet}_div">
+          <h2 class="card_title" id="${planet}_title">${planet}</h2>
+          <p class="au_card" id="${planet}_au">AU ${au}</p>
+        </div>
       </div>
     `;
   });
